@@ -2,7 +2,7 @@
 PHP handling array data idea
 
 ```PHP
-extract(['key_is_variable' => 'then_value_as_result' ]);
+extract(['key_is_variable' => 'then_value_as_result' ]); | compact() OPPOSITE of extract(); 
 
 // Usage: 
 echo $key_is_variable
@@ -34,5 +34,9 @@ index.php < SET : $key_is_variable = then_value_as_result; >
 string "then_value_as_result";
 
 Reference: https://www.php.net/manual/en/function.extract.php
+
+// compact() PHP Function OPPOSITE of extract();
+compact();
+Reference: https://www.php.net/manual/en/function.compact.php
 
 ```
